@@ -20,7 +20,7 @@ A clean, blue gtk theme.
 %setup -q -n %{name}
 
 %build
-%configure
+%configure2_13
 %{__make}
 
 %install
