@@ -10,7 +10,6 @@ URL:		http://progen.dynodns.net/dengen/cleantheme/index.html
 BuildRequires:	gtk+-devel >= 1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 A clean, blue gtk theme.
