@@ -1,5 +1,5 @@
-Summary:	Clean - A gtk+ theme engine
-Summary(pl):	Clean - motyw do gtk+
+Summary:	Clean - A GTK+ theme engine
+Summary(pl):	Clean - motyw do GTK+
 Name:		gtk-clean-theme
 Version:	0.4
 Release:	5
@@ -13,10 +13,10 @@ BuildRequires:	gtk+-devel >= 1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-A clean, blue gtk theme.
+A clean, blue GTK+ theme.
 
 %description -l pl
-Clean - motyw do gtk+.
+Clean - motyw do GTK+.
 
 %prep
 %setup -q -n %{name}
