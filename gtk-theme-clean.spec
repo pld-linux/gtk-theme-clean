@@ -1,7 +1,7 @@
 Summary:	Clean - A gtk+ theme engine
 Name:		gtk-clean-theme
 Version:	0.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Themes/Gtk
 Group(de):	Themen/Gtk
@@ -27,8 +27,6 @@ A clean, blue gtk theme.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} DESTDIR=$RPM_BUILD_ROOT install
-
-strip --strip-unneeded $RPM_BUILD_ROOT%{_libdir}/gtk/themes/engines/lib*.so
 
 gzip -9nf AUTHORS NEWS README
 
