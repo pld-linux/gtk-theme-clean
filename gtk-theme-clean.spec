@@ -1,8 +1,8 @@
 Summary:	Clean - A GTK+ theme engine
 Summary(pl):	Clean - motyw do GTK+
-Name:		gtk-clean-theme
+Name:		gtk-theme-clean
 Version:	0.4
-Release:	5
+Release:	6
 License:	GPL
 Group:		Themes/GTK+
 Source0:	http://progen.dynodns.net/dengen/cleantheme/clean-theme-gtk-%{version}.tar.gz
@@ -10,6 +10,7 @@ Source0:	http://progen.dynodns.net/dengen/cleantheme/clean-theme-gtk-%{version}.
 URL:		http://progen.dynodns.net/dengen/cleantheme/index.html
 BuildRequires:	automake
 BuildRequires:	gtk+-devel >= 1.2
+Obsoletes:	gtk-clean-theme
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -19,7 +20,7 @@ A clean, blue GTK+ theme.
 Clean - motyw do GTK+.
 
 %prep
-%setup -q -n %{name}
+%setup -q -n gtk-clean-theme
 
 %build
 cp -f /usr/share/automake/config.sub .
