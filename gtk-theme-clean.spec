@@ -26,9 +26,11 @@ LDFLAGS="-s"; export LDFLAGS
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} DESTDIR=$RPM_BUILD_ROOT%{_prefix} install
+%{__make} DESTDIR=$RPM_BUILD_ROOT install
 
-gzip -9nf AUTHORS ChangeLog NEWS README
+strip --strip-unneeded $RPM_BUILD_ROOT%{_libdir}/gtk/themes/engines/lib*.so
+
+gzip -9nf AUTHORS NEWS README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
