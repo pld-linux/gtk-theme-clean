@@ -6,6 +6,7 @@ Release:	3
 License:	GPL
 Group:		Themes/Gtk
 Source0:	http://progen.dynodns.net/dengen/cleantheme/clean-theme-gtk-%{version}.tar.gz
+# Source0-md5:	46bbd81d66882348746693b48c08d3a1
 URL:		http://progen.dynodns.net/dengen/cleantheme/index.html
 BuildRequires:	gtk+-devel >= 1.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
