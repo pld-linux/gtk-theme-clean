@@ -1,9 +1,10 @@
 Summary:	Clean - A gtk+ theme engine
 Name:		gtk-clean-theme
-Version:	0.3
+Version:	0.4
 Release:	1
 License:	GPL
 Group:		Themes/Gtk
+Group(de):	Themen/Gtk
 Group(pl):	Motywy/Gtk
 Source0:	http://progen.dynodns.net/dengen/cleantheme/clean-theme-gtk-%{version}.tar.gz
 URL:		http://progen.dynodns.net/dengen/cleantheme/index.html
@@ -19,7 +20,6 @@ A clean, blue gtk theme.
 %setup -q -n %{name}
 
 %build
-LDFLAGS="-s"; export LDFLAGS
 %configure
 %{__make}
 
