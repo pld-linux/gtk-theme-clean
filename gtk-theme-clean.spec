@@ -5,8 +5,6 @@ Version:	0.4
 Release:	3
 License:	GPL
 Group:		Themes/Gtk
-Group(de):	Themen/Gtk
-Group(pl):	Motywy/Gtk
 Source0:	http://progen.dynodns.net/dengen/cleantheme/clean-theme-gtk-%{version}.tar.gz
 URL:		http://progen.dynodns.net/dengen/cleantheme/index.html
 BuildRequires:	gtk+-devel >= 1.2
